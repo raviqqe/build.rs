@@ -1,5 +1,5 @@
 use super::repository::Repository;
-use crate::common::FilePath;
+use super::FilePath;
 
 pub trait FileSystem {
     fn exists(&self, path: &FilePath) -> bool;
